@@ -31,7 +31,7 @@ void webpage(WiFiClient client) { /* function webpage */
   client.println("</head>");
   client.println("<body bgcolor = '#FFE5B4'> ");
   client.println("<hr/><hr>");
-  client.println("<h1 style='color : #194D33;'><center> SCV UGV - Web Controller </center></h1>");
+  client.println("<h1 style='color : #194D33;'><center> UGV - Web Controller </center></h1>");
   client.println("<hr/><hr>");
   client.println("<h2 style='color : #194D33;'> Navigation </h2>");
   client.println("<table>");
